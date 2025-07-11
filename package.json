@@ -1,0 +1,59 @@
+
+{
+  "name": "mireb-commercial-b2b",
+  "version": "2.1.0",
+  "description": "Plateforme B2B moderne pour connecter acheteurs et fournisseurs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.6"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.6"
+  },
+  "keywords": [
+    "b2b",
+    "ecommerce",
+    "marketplace",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "mobile-first",
+    "commercial",
+    "suppliers",
+    "buyers"
+  ],
+  "author": {
+    "name": "Mireb",
+    "email": "mirebshop@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mireb1/Mireb-commercial-B2B.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mireb1/Mireb-commercial-B2B/issues"
+  },
+  "homepage": "https://github.com/mireb1/Mireb-commercial-B2B#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
